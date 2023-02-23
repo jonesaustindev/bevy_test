@@ -15,4 +15,5 @@ opt-level = 3
 
 
 [dependencies]
+# Remove dynamic if wanting to use debugger or breakpoints
 bevy = { version = "0.9.0", features = ["dynamic"] }
